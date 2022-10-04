@@ -8,6 +8,7 @@ import (
 
 var SchemeGroupVersion = schema.GroupVersion{Group: "tomelin.tech", Version: "v1alpha1"}
 var SchemeBuilder runtime.SchemeBuilder
+var AddToScheme = SchemeBuilder.AddToScheme
 
 func init() {
 
